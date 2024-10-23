@@ -1,9 +1,9 @@
 import 'dart:async';
-
 import 'package:e_commerce_clone/utils/color_constants.dart';
 import 'package:e_commerce_clone/utils/image_constants.dart';
 import 'package:e_commerce_clone/view/onboarding_screen/onboarding_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -43,7 +43,7 @@ class _SplashScreenState extends State<SplashScreen> {
                     ),
                     SizedBox(width: 9),
                     Text("Stylish",
-                    style: TextStyle(
+                    style: GoogleFonts.libreCaslonText(
                         color: ColorConstants.PRIMARY,
                         fontSize: 40,
                         fontWeight: FontWeight.bold,
@@ -55,3 +55,4 @@ class _SplashScreenState extends State<SplashScreen> {
     );
   }
 }
+
